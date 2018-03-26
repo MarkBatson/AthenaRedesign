@@ -1,17 +1,11 @@
 * {
 	font-family: sans-serif;
 }
-
 body {
   margin: 0px;
   width: 100%;
   position: relative;
   z-index: 0;
-}
-a {
-  color: inherit;
-  outline: inherit;
-  text-decoration: inherit;
 }
 
 /* Header Style */
@@ -30,6 +24,9 @@ a {
   margin-top: 25px;
 }
 .sign-in {
+	color: inherit;
+  outline: inherit;
+  text-decoration: inherit;
   height: 20px;
   font-size: 20px;
   font-weight: normal;
@@ -39,6 +36,9 @@ a {
   margin-top: 40px;
 }
 .sign-in:hover {
+  color: inherit;
+  outline: inherit;
+  text-decoration: inherit;
   color: black;
 }
 
@@ -48,31 +48,67 @@ a {
 	margin-top:100px;
 	width: 50%;
 }
-
 .welcomeMessage {
 	margin: auto;
 	width: 60%;
 	font-size: 40px;
 }
-
 .linkBox {
 	width: 100%;
 	border: 5px black;
 	padding: 5px;
 }
-
 .linkBoxHeader {
 	background-color: #BA0C2F;
 	width: 100%;
 	margin: auto;
 	justify-content: space-between;
 }
-
 .linkBoxTitle {
 	font-size: 30px;
 	color: white;
 	margin: auto;
 	
+}
+
+/* Home Page */
+
+.homeElementButton {
+	background-color: #BA0C2F;
+	width: 200px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	margin-left: 100px;
+}
+.homepageHeader {
+	background-color: #BA0C2F;
+	height: 50px;
+	width: 100%;
+ 	margin: auto;
+  	justify-content: space-between;
+	color: white;
+	font-size: 20px;
+	align-content: center;
+	text-align: center;
+}
+.homepageUpdates {
+	border: 1px black;
+	border-style: solid;
+	margin: auto;
+	margin-top:100px;
+	width: 100px;
+	width: 50%;
+}
+.centerLessMargin {
+	margin: auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 50%;
 }
 
 /* Registration Page */
@@ -115,7 +151,6 @@ th {
   width: 100px;
 }
 td {
-  font-family: sans-serif;
   text-align: center;
   height: 50px;
   border: 1px solid black;
