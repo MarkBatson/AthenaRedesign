@@ -25,6 +25,7 @@ a {
   color: white;
   margin-left: 25px;
   margin-top: 25px;
+  font-family: arial;
 }
 .sign-in {
   height: 20px;
@@ -34,6 +35,7 @@ a {
   text-align: right;
   margin-right: 25px;
   margin-top: 40px;
+  font-family: arial;
 }
 .sign-in:hover {
   color: black;
@@ -52,6 +54,7 @@ a {
 .helpful-links-title {
   font-size: 25px;
   padding: 5px;
+  font-family: arial;
 }
 .helpful-links-content {
   text-align: left;
@@ -79,6 +82,7 @@ li:hover {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
+  font-family: arial;
 }
 .homeButton:hover {
   background-color: #900924;
@@ -122,6 +126,7 @@ li:hover {
 
 .add-a-course {
   margin-right: 10px;
+  font-family: arial;
 }
 
 select {
@@ -131,6 +136,7 @@ select {
 .schedule {
   text-align: center;
   margin-top: 50px;
+  font-family: arial;
 }
 table {
   margin: auto;
