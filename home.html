@@ -6,10 +6,18 @@
   </head>
   <body>
     <div class="header">
-      <h1 class="title" onclick= "location.href='home.html';">Athena</h1>
-      <a href="myaccnt.html" class="sign-in" onmouseover="dropmenu()">My Account</a>
-      <!--<div class="drop-menu"></div>-->
+      <a class="title" href="home.html">Athena</a>
+      <div class="acc_icon" onclick="openmenu()"></div>
     </div>
+    <div class="drop-menu">
+        <ul>
+          <li><a href="myaccnt.html">My Account</li></a>
+          <li>Eggs</li>
+          <li>Pineapple</li>
+          <li>Ham</li>
+          <li>Logout</li>
+        </ul>
+      </div>
 
     <div class="flex">
 
@@ -43,5 +51,5 @@
     </table>
 
   </body>
-  <script src="homescript.js"></script>
+  <script src="headerscript.js"></script>
 </html>
