@@ -191,6 +191,19 @@ td {
   display: flex;
   justify-content: space-between;
 }
+.dropButton {
+	background-color: #BA0C2F;
+	color: white;
+	border: none;
+	height: 35px;
+	width: 200px;
+	border-radius: 10px;
+}
+.dropButton:hover {
+	background-color: #900924;
+	cursor: pointer;
+}
+
 /* The Close Button */
 .close {
   color: #aaa;

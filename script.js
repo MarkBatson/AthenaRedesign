@@ -45,3 +45,14 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+function dropCourse() {
+	modal.style.display="none";
+	var row = document.getElementById("myRow");
+	row.deleteCell(3);
+	row.deleteCell(3);
+	row.deleteCell(3);
+	row.insertCell(3);
+	row.insertCell(3);
+	row.insertCell(3);
+}
