@@ -41,6 +41,18 @@ a {
   color: black;
 }
 
+/* Profile drop-down */
+.drop-menu {
+  position: relative;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: #900924;
+  color: white;
+  visibility: hidden;
+  z-index: 1;
+}
+
 /* Index Page */
 .welcome {
   text-align: center;
