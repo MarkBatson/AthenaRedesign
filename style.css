@@ -34,7 +34,7 @@ a {
   font-size: 20px;
   font-weight: normal;
   color: white;
-  text-align: right;
+  float: right;
   margin-right: 25px;
   margin-top: 40px;
   font-family: arial;
