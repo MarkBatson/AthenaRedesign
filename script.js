@@ -56,3 +56,25 @@ function dropCourse() {
 	row.insertCell(3);
 	row.insertCell(3);
 }
+
+
+//Will come back to these.
+
+function showEdit(){
+  document.getElementById("accnt").style.display = "none";
+  document.getElementById("edit-accnt").style.display= "block";
+}
+
+function saveEdit(){
+  document.getElementById("edit-accnt").style.display = "none";
+  document.getElementById("accnt").style.display = "block";
+}
+
+function showName() {
+    alert("A request to change your name in the University Administrative"
+      + " System must be submitted to the Office of the Registrar." 
+      +" If you need to make changes to your name, you will need" 
+      +" to present the appropriate documentation to the Office of the Registrar." 
+      +" Different types of name changes require different types of legal documentation." 
+      +" You must complete, sign and submit the Change of Name form.");
+}
